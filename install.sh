@@ -102,3 +102,6 @@ if [[ ! $REPLY =~ ^[Nn]$ ]]; then
     echo "$INSTALL_DIR/lib/git-shortcuts.sh"
     echo -e "${GREEN}🔄 Bibliothèque chargée ! Tapez 'msl' pour voir l'aide.${NC}"
 fi
+
+# sourcer le fichier git-shortcuts.sh une derniere fois au cas ou les autres sourcing n'ont pas marché
+source ~/.simple-git/lib/git-shortcuts.sh
