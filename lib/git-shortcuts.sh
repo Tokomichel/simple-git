@@ -22,6 +22,16 @@ gca() {
     git add . && git commit -m "$1"
 }
 
+# git add . && git commit -m "message" && git   push
+gcp() {
+    if [ -z "$1" ]; then
+        echo "Usage: gcp 'message'"
+        echo "Exemple: gcp 'Add new feature'"
+        return 1
+    fi
+    git add . && git commit -m "$1" && git push
+}
+
 # git push
 gp() {
     local branch=$(git branch --show-current 2>/dev/null)

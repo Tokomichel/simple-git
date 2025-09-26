@@ -22,5 +22,26 @@ source ~/.simple-git/lib/git-shortcuts.sh
 
 ## Utilisation
 
+Ici figurent juste quelques exemples d'utilisation de la bibliothèque.
+
+Pour commencer il faut entrer la commande suivante dans votre terminal pour voir l'ensemble des commandes disponibles.
+```bash
+msl
+```
+* Pour faire un commit
+```bash
+gcm "message"
+```
+* Pour faire un git add commit et push
+```bash
+gca "message" 
+```
+* Pour faire un git add commit et push
+```bash
+gcp "message"
+```
+
+Voilà quelques exemples d'utilisation de la bibliothèque.
+Je suis ouvert à toutes suggestions pour améliorer la bibliothèque.
 
 
