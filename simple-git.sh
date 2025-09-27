@@ -28,21 +28,8 @@ msl_help() {
     echo "  gcb <branch>      - git checkout -b <branch>"
     echo "  gd                - git diff"
     echo "  glog              - git log --oneline -10"
-    echo ""
-    echo "Commandes Docker:"
-    echo "  dps               - docker ps"
-    echo "  dimg              - docker images"
-    echo "  dstop <container> - docker stop <container>"
-    echo "  drm <container>   - docker rm <container>"
-    echo "  dexec <container> - docker exec -it <container> /bin/bash"
-    echo ""
-    echo "Utilitaires:"
-    echo "  mkcd <dir>        - mkdir -p <dir> && cd <dir>"
-    echo "  extract <file>    - Extraire différents formats d'archives"
-    echo "  weather [city]    - Afficher la météo"
-    echo "  myip              - Afficher votre IP publique"
-    echo ""
-    echo "Usage: source simple-git.sh pour charger toutes les fonctions"
+    echo "  gsco <branch>     - git stash && git checkout <branch>"
+    echo "  gspco <branch>    - git stash pop && git checkout <branch>"
 }
 
 # Alias pour l'aide

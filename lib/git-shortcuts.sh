@@ -77,6 +77,16 @@ gco() {
     git checkout "$1"
 }
 
+# git stash et checkout
+gsco()
+{
+    if [ -z "$1" ]; then
+        echo "Usage: gsco <branch_name>"
+        return 1
+    fi
+    git stash && git checkout "$1"
+}
+
 # git checkout -b (nouvelle branche)
 gcb() {
     if [ -z "$1" ]; then
@@ -84,6 +94,16 @@ gcb() {
         return 1
     fi
     git checkout -b "$1"
+}
+
+#git stash pop et checkout
+gspco()
+{
+    if [ -z "$1" ]; then
+        echo "Usage: gspco <branch_name>"
+        return 1
+    fi
+    git stash pop && git checkout "$1"
 }
 
 # git diff
