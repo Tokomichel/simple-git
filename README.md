@@ -7,7 +7,7 @@ Pour installer sans avoir à cloner le projet, il fous suffit d'utiliser la comm
 curl -sSL https://raw.githubusercontent.com/Tokomichel/simple-git/main/install-remote.sh | bash
 ```
 
-**optionel**
+*optionel*<br>
 et en suite depuis n'importe quel terminal (linux tels que le git bash de windows)
 
 ```bash
