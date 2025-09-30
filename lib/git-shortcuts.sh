@@ -44,6 +44,18 @@ gp() {
     git push origin "$branch"
 }
 
+# git push --set-upstream origin "branch_name"
+gpo() {
+    if [ -z "$1" ]; then
+        echo "Usage: gpo <branch_name>"
+        echo "Exemple: gpo 'main'"
+        return 1
+    fi
+    git push --set-upstream origin "$1"
+}
+
+# git push origin main
+gpm() {
 # git pull
 gl() {
     local branch=$(git branch --show-current 2>/dev/null)
