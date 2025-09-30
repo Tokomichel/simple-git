@@ -7,7 +7,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &> /dev/null && pwd)"
 
 # Charger tous les modules de la bibliothèque
-# source "$SCRIPT_DIR/lib/git-shortcuts.sh"
+source "$SCRIPT_DIR/lib/git-shortcuts.sh"
 
 # source "$SCRIPT_DIR/lib/docker-shortcuts.sh"
 # source "$SCRIPT_DIR/lib/utils.sh"

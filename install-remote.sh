@@ -108,5 +108,6 @@ if [ -t 0 ]; then
     fi
 fi
 
-source ~/.simple-git/lib/git-shortcuts.sh
+source "$INSTALL_DIR/simple-git.sh"
+# source "$INSTALL_DIR/lib/git-shortcuts.sh"
 # curl -sSL https://raw.githubusercontent.com/Tokomichel/simple-git/main/install-remote.sh
