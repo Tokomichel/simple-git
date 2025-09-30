@@ -4,13 +4,18 @@ Simplify your git command
 ## Installation remote (recommandée)
 Pour installer sans avoir à cloner le projet, il fous suffit d'utiliser la commande curl comme ceci:
 ```bash
-curl curl -sSL https://raw.githubusercontent.com/Tokomichel/simple-git/main/install-remote.sh | bash
+curl -sSL https://raw.githubusercontent.com/Tokomichel/simple-git/main/install-remote.sh | bash
 ```
+
+**optionel**
 et en suite depuis n'importe quel terminal (linux tels que le git bash de windows)
 
 ```bash
 source ~/.simple-git/lib/git-shortcuts.sh
 ```
+
+en fin redemarrer votre terminal afin de pouvoir utiliser les simple-git commands
+
 ## Installation via clonage du projet
 Pour commencer clone le repo dans n'importe quel dossier de votre pc
 ```bash
