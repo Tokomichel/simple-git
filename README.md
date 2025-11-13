@@ -58,4 +58,6 @@ gcp "message"
 Voilà quelques exemples d'utilisation de la bibliothèque.
 Je suis ouvert à toutes suggestions pour améliorer la bibliothèque.
 
+*Ce code source est placé sous licence GPL*
+
 
