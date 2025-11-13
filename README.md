@@ -7,7 +7,7 @@ Pour installer sans avoir à cloner le projet, il fous suffit d'utiliser la comm
 curl -sSL https://raw.githubusercontent.com/Tokomichel/simple-git/main/install-remote.sh | bash
 ```
 
-**optionel**
+*optionel*<br>
 et en suite depuis n'importe quel terminal (linux tels que le git bash de windows)
 
 ```bash
@@ -57,5 +57,7 @@ gcp "message"
 
 Voilà quelques exemples d'utilisation de la bibliothèque.
 Je suis ouvert à toutes suggestions pour améliorer la bibliothèque.
+
+*Ce code source est placé sous licence GPL*
 
 
